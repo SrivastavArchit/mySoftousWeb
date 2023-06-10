@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
 .animate__animated.animate__jackInTheBox{
     --animate-duration: 2s;
     --animate-delay: 0.6Ss;
@@ -51,11 +58,21 @@ body.homepage.is-preload #header:after {
 header{
     background-image: url(lock5.png)  ;
     background-size: cover;
+    background-position: 0px;
+    left: 0em;
+    
 }
 
 .logo{
     position:absolute;
-    left: 7px;
-    top: 5px;
+    /* left: 4px;
+    top: 2px;
+    width: 2rem; */
     
+    
+}
+.shift{
+    right: 0;
+    display: flex;
+    justify-content: end;
 }
